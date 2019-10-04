@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 1, Errors: 0, Skipped: 8, Time elapsed: 11.195 s <<< FAILURE! - in TestSuite
+initialize(academy.HomePage)  Time elapsed: 10.244 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\rahul\E2EProject\src\main\java\resources\data.properties (The system cannot find the path specified)
+	at academy.HomePage.initialize(HomePage.java:25)
+

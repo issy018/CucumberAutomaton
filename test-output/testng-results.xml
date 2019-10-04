@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">Initialize the browser with chrome (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">navigate to the &quot;http:&#x2F;&#x2F;qaclickacademy.com&quot; site (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Click on Login link in homepage to land on secure sign-in page (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">User enters valid test99@gmail.com and 123456 and logs in (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Verify that the User is successfully logged in (UNDEFINED)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">close browsers (UNDEFINED)</div>]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="617" started-at="2019-09-23T20:36:29 BST" finished-at="2019-09-23T20:36:30 BST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunnerClass@101df177]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Validating User login" duration-ms="617" started-at="2019-09-23T20:36:29 BST" finished-at="2019-09-23T20:36:30 BST">
+      <class name="cucumberOptions.TestRunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunnerClass@101df177]" name="setUpClass" is-config="true" duration-ms="430" started-at="2019-09-23T20:36:29 BST" finished-at="2019-09-23T20:36:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunnerClass@101df177]" name="runScenario" duration-ms="100" started-at="2019-09-23T20:36:30 BST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-09-23T20:36:30 BST">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at java.util.regex.Matcher.getTextLength(Matcher.java:1283)
+at java.util.regex.Matcher.reset(Matcher.java:309)
+at java.util.regex.Matcher.<init>(Matcher.java:229)
+at java.util.regex.Pattern.matcher(Pattern.java:1093)
+at com.aventstack.extentreports.utils.ExceptionUtil.getExceptionHeadline(ExceptionUtil.java:25)
+at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:399)
+at com.aventstack.extentreports.ExtentTest.fail(ExtentTest.java:635)
+at com.aventstack.extentreports.ExtentTest.fail(ExtentTest.java:647)
+at resources.ExtentReportsListeners.onTestFailure(ExtentReportsListeners.java:45)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:66)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:210)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:638)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunnerClass@101df177]" name="tearDownClass" is-config="true" duration-ms="16" started-at="2019-09-23T20:36:30 BST" finished-at="2019-09-23T20:36:30 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunnerClass -->
+    </test> <!-- Validating User login -->
+  </suite> <!-- Suite -->
+</testng-results>
